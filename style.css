@@ -500,3 +500,88 @@ tbody td {
   margin: 0 auto;
   margin-top: 250px;
 }
+
+/* Donate today */
+
+.donate_section {
+  width: 1550px;
+  height: 350px;
+  margin: 0 auto;
+}
+.donate_section {
+  text-align: center;
+  margin-top: 250px;
+}
+.donate_title {
+  font-weight: 700;
+  font-size: 43px;
+  margin-bottom: 50px;
+}
+.donate_dec {
+  font-size: 20px;
+  font-weight: 400px;
+  color: #0e0e0e;
+}
+.takar_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.taka {
+  border-radius: 20px;
+  padding: 40px;
+  background: #ffff;
+  margin-top: 35px;
+  padding: 40px 70px;
+  font-weight: 700;
+  font-size: 43px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.taka:hover {
+  background-color: #6a9b84;
+}
+.taka_2 {
+  border-radius: 20px;
+  margin-top: 35px;
+  padding: 40px 70px;
+  background: #c6e4d6;
+  color: #0e0e0e;
+  font-weight: 700;
+  font-size: 43px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.taka_2:hover {
+  background-color: #6a9b84;
+}
+
+.other_taka {
+  margin-top: 50px;
+  width: 1550px;
+  height: 74px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.btn_primary_1 {
+  background: #006a50;
+  height: 65px;
+  width: 200px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn_primary_1:hover {
+  background: #0f9473;
+  color: rgb(243, 211, 180);
+}
