@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  background: #f5f5f5;
+}
+
+.fira_sans {
+  font-family: 'Fira Sans', serif;
+  font-style: normal;
+}
+
+/* shared style */
+.btn_primary {
+  background: #006a50;
+  height: 60px;
+  width: 275px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn_primary:hover {
+  background: #0f9473;
+  color: rgb(243, 211, 180);
+}
+
+/* header swction style */
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #f5f5f5;
+}
+.nav_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 160px 24px 160px;
+}
+
+.nav_logo {
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.nav_button {
+  width: 115px;
+  height: 51px;
+  border: 1.5px solid #006a50;
+  border-radius: 7.5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #006a50;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav_button:hover {
+  background: #0f6852;
+  color: #ffffff;
+}
+
+/* hero section style */
+
+#hero {
+  width: 1550px;
+  height: 650px;
+  margin: 0 auto;
+}
+
+.hero_section {
+  display: flex;
+  width: 100%;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  background: #c6e4d6;
+  border-radius: 24px;
+  margin-top: 20px;
+}
+
+.sub_title {
+  font-size: 26px;
+  font-weight: 500;
+  color: #0e0e0e;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 56px;
+  color: #0e0e0e;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 25px;
+}
+
+.hero_text {
+  margin-left: 60px;
+}
+.hero_img {
+  margin-right: 60px;
+}
+
+/* Pillars of "Bangladesh 2.0" style */
+
+.pillars_of_2 {
+  width: 1550px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.items_pillars {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title2_0 {
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 42px;
+  color: #0e0e0e;
+}
+
+.pillars_item {
+  padding: 24px;
+  border: 2px solid #d4d4d6;
+  border-radius: 17px;
+  background: #ffffff;
+  margin-top: 100px;
+}
+
+.title_2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 24px;
+  color: #0e0e0e;
+}
+.sub_title1 {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #0e0e0e;
+  margin-top: 15px;
+}
+
+/* vision_items style */
+
+.vision {
+  width: 1550px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.vision_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  gap: 32px;
+}
+.vision_title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #0e0e0e;
+  margin-bottom: 40px;
+}
+
+.vision_item_1 {
+  background: rgba(84, 144, 245, 0.2);
+  border-radius: 17px;
+  padding: 40px;
+  gap: 24px;
+}
+
+.vision_item_2 {
+  background: #bce0d6;
+  border-radius: 17px;
+  padding: 40px;
+}
+.vision_item_3 {
+  background: rgb(247, 235, 207);
+  border-radius: 17px;
+  padding: 40px;
+}
+
+.vision_button_1 {
+  padding: 14px 24px 15px 24px;
+  border-radius: 9px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #5490f5;
+  transition: 0.3s;
+}
+.vision_button_1:hover {
+  background: #122c5a;
+}
+
+.vision_button_2 {
+  padding: 14px 24px 15px 24px;
+  border-radius: 9px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #09a15c;
+  transition: 0.3s;
+}
+.vision_button_2:hover {
+  background: #07492b;
+}
+.vision_button_3 {
+  padding: 14px 24px 15px 24px;
+  border-radius: 9px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: rgb(255, 194, 57);
+  transition: 0.3s;
+}
+.vision_button_3:hover {
+  background: rgb(148, 111, 23);
+}
