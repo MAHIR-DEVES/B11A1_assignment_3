@@ -29,6 +29,22 @@ body {
   background: #0f9473;
   color: rgb(243, 211, 180);
 }
+.btn_primary_2 {
+  background: #006a50;
+  height: 60px;
+  width: 170px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn_primary_2:hover {
+  background: #0f9473;
+  color: rgb(243, 211, 180);
+}
 
 /* header swction style */
 
@@ -206,6 +222,7 @@ header {
   color: #ffffff;
   background: #5490f5;
   transition: 0.3s;
+  cursor: pointer;
 }
 .vision_button_1:hover {
   background: #122c5a;
@@ -221,6 +238,7 @@ header {
   color: #ffffff;
   background: #09a15c;
   transition: 0.3s;
+  cursor: pointer;
 }
 .vision_button_2:hover {
   background: #07492b;
@@ -235,6 +253,7 @@ header {
   color: #ffffff;
   background: rgb(255, 194, 57);
   transition: 0.3s;
+  cursor: pointer;
 }
 .vision_button_3:hover {
   background: rgb(148, 111, 23);
@@ -351,7 +370,7 @@ tbody td {
 }
 
 .table_btn {
-  padding: 23px 30px 23px 30px;
+  padding: 20px 35px 20px 35px;
   margin-left: 120px;
   font-size: 20px;
   font-weight: 500;
@@ -607,4 +626,9 @@ tbody td {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  cursor: pointer;
+}
+
+footer h4 {
+  text-align: right;
 }
