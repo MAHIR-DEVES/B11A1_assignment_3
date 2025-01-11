@@ -239,3 +239,204 @@ header {
 .vision_button_3:hover {
   background: rgb(148, 111, 23);
 }
+
+.vision {
+  width: 1550px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.vision_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  gap: 32px;
+}
+.vision_title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #0e0e0e;
+  margin-bottom: 40px;
+}
+
+.vision_item_1 {
+  background: rgba(84, 144, 245, 0.2);
+  border-radius: 17px;
+  padding: 40px;
+  gap: 24px;
+}
+
+.vision_item_2 {
+  background: #bce0d6;
+  border-radius: 17px;
+  padding: 40px;
+}
+.vision_item_3 {
+  background: rgb(247, 235, 207);
+  border-radius: 17px;
+  padding: 40px;
+}
+
+.vision_button_1 {
+  padding: 14px 24px 15px 24px;
+  border-radius: 9px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #5490f5;
+  transition: 0.3s;
+}
+.vision_button_1:hover {
+  background: #122c5a;
+}
+
+.vision_button_2 {
+  padding: 14px 24px 15px 24px;
+  border-radius: 9px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #09a15c;
+  transition: 0.3s;
+}
+.vision_button_2:hover {
+  background: #07492b;
+}
+.vision_button_3 {
+  padding: 14px 24px 15px 24px;
+  border-radius: 9px;
+  border: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background: rgb(255, 194, 57);
+  transition: 0.3s;
+}
+.vision_button_3:hover {
+  background: rgb(148, 111, 23);
+}
+
+/* quote section */
+
+.Dr_Y {
+  width: 1550px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.dr_Yunos {
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  height: 256px;
+  width: 1550px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 200px;
+  border: 1.5px solid rgba(14, 14, 14, 0.15);
+  border-radius: 17px;
+  position: relative;
+}
+
+.dr_Yunos_qutation {
+  background-image: url('./assets/quote-bg.png');
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 30px;
+  left: 30px;
+}
+
+.Yunos_quote_1 {
+  color: #0e0e0e;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.Yunos_quote_2 {
+  color: #0e0e0e;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.Yunos_quote_3 {
+  color: #0e0e0e;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 9px;
+}
+
+/* table style */
+.Opinion {
+  width: 1550px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.Opinion_table {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  gap: 32px;
+}
+.table_title {
+  margin-top: 100px;
+  font-size: 43px;
+  font-weight: 700;
+}
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background: #c6e4d6;
+}
+table td,
+th {
+  border: 1.5px solid #c0c0c0;
+  border-collapse: collapse;
+  padding: 26px;
+}
+table th {
+  text-align: start;
+  font-size: 23px;
+  font-weight: 600;
+  color: #0e0e0e;
+}
+.table_border {
+  border-left: none;
+}
+.table_border1 {
+  border-right: none;
+}
+
+tbody td {
+  font-weight: 600;
+  font-size: 18px;
+  color: #0e0e0e;
+}
+
+.table_btn {
+  padding: 23px 30px 23px 30px;
+  margin-left: 120px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 7px;
+  background-color: rgba(9, 161, 92, 0.15);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.table_btn:hover {
+  background: #09a15c;
+  color: #ffffff;
+}
